@@ -40,7 +40,7 @@ nav ul a {
 }
 header {
   width: 100%;
-  height: 480px;
+  height: 500px;
   background: #c6ffdd; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -49,8 +49,9 @@ header {
     #c6ffdd77
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f7797d62, #fbd88679, #c6ffdd77),
-    url(./img/DSC0001.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    url(./img/elmermediacover.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .wave {
   position: absolute;
   bottom: 200px;
