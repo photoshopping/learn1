@@ -12,12 +12,17 @@ nav {
   text-decoration: none;
   padding: 30px 50px 0 0;
 }
+nav logo {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 2;
+}
 nav ul {
   display: flex;
   font-weight: 400;
   list-style: none;
   text-decoration: none;
-  justify-content: space-between;
+  justify-content: space-around;
   flex: 0.25;
   color: #642a73;
   margin-right: 10px;
@@ -68,6 +73,7 @@ header .textheader {
   text-align: center;
 }
 .textheader h1 {
+  margin-top: -20px;
   font-size: 50px;
   color: white;
 }
