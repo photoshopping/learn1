@@ -3,26 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Mi proyect prueba</title>
   </head>
   <!-- this is a comment -->
   <body>
-    <div>
-      <ul class="titulos">
-        <li class="item">مرحبا</li>
-        <li class="item">خدمانتا</li>
-        <li class="item">اتصل بنا</li>
-      </ul>
-    </div>
-    <p>este es un ejemplo de parrafo en html sin ningun formato especifico</p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe.
-      Quo, eaque voluptatibus reprehenderit vel itaque sit libero excepturi
-      voluptate!s
-    </p>
-    <img width="300" height="300" src="/img/DSC0001.jpg" alt="clouds" />
+    <header>
+      <nav>
+        <ul class="navigacion">
+          <li class="Navitem">مرحبا</li>
+          <li class="Navitem">خدمانتا</li>
+          <li class="Navitem">اتصل بنا</li>
+        </ul>
+      </nav>
+      <section class="textheader">
+        <h1>مرحبا بكم</h1>
+        <h2>في صفحتي الجديدة</h2>
+      </section>
+
+      <div class="wave" style="height: 100px; overflow: hidden;">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C142.21,203.78 395.59,-95.22 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: rgb(255, 255, 255);"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <section class="contenedor sobremi">
+        <h2 class="titulo">من نكون؟</h2>
+        <div class="contenedor-sobremi">
+          <img src="/img/DSC0001.jpg" alt="" class="imagen-sobremi" />
+          <div class="contenedortextos">
+            <h3><span>1</span>رؤياتا</h3>
+            <p>
+              كن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة
+              وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس
+              تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
+              بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا
+              بد أن نستشعرها بصورة أكثر عقلانية ومنطقية فيعرضهم هذا لمواجهة
+              الظروف الأليمة، وأكرر بأنه لا يوجد من يرغب في الحب ونيل المنال
+              ويتلذذ بالآلام، الألم هو الألم ولكن نتيجة لظروف ما قد تكمن السعاده
+              فيما نتحمله من كد وأسي.
+            </p>
+            <h3><span>2</span>أهدافنا</h3>
+            <p>
+              و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
+              الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد
+              أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب
+              الألم الذي ربما تنجم عنه بعض المتعة ؟ علي الجانب الآخر نشجب
+              ونستنكر هؤلاء الرجال المفتونون بنشوة اللحظة الهائمون في رغباتهم
+              فلا يدركون ما يعقبها من الألم والأسي المحتم، واللوم كذلك يشمل
+              هؤلاء الذين أخفقوا في واجباتهم نتيجة لضعف إرادتهم فيتساوي مع هؤلاء
+              الذين يتجنبون وينأون عن تحمل الكدح والألم .
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="portafoliot">
+        <div class="contenedor">
+          <h2 class="titulo">أعمالنا</h2>
+          <div class="galeria-port"></div>
+        </div>
+      </section>
+    </main>
+
     <script src="/app.js"></script>
   </body>
 </html>
