@@ -1,3 +1,4 @@
+//slider section
 let slider = document.querySelector(".slider-contenedora");
 let sliderIndividual = document.querySelectorAll(".contenido-slider");
 let contador = 1;
@@ -25,7 +26,7 @@ function slides() {
     }, 1500);
   }
 }
-
+//tabs section
 $(document).ready(function () {
   $("ul.tabs li a:first").addClass("active");
   $(".secciones article").hide();
@@ -41,7 +42,7 @@ $(document).ready(function () {
     return false;
   });
 });
-
+//Skils Bars
 $(".skill-per").each(function () {
   var $this = $(this);
   var per = $this.attr("per");
@@ -59,6 +60,7 @@ $(".skill-per").each(function () {
     }
   );
 });
+//circular pourcentage
 var Dial = function (container) {
   this.container = container;
   this.size = this.container.dataset.size;
@@ -271,6 +273,8 @@ Dial.prototype.setValue = function (value) {
 var containers = document.getElementsByClassName("chart");
 var dial = new Dial(containers[0]);
 dial.animateStart();
+
+//second circular
 
 Dial.prototype.createSvg = function () {
   var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");

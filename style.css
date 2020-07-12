@@ -1,3 +1,4 @@
+/* general setting */
 * {
   margin: 0px;
   padding: 0px;
@@ -6,6 +7,7 @@
   -moz-box-sizing: border-box;
   font-family: "El Messiri", sans-serif;
 }
+/* navegation setting */
 nav {
   display: flex;
   align-items: center;
@@ -198,7 +200,7 @@ header .textheader {
     width: 80%;
   }
 }
-
+/* Tabs setting */
 .wrap {
   width: 1500px;
   max-width: 95%;
@@ -288,6 +290,7 @@ ul.tabs li a .tab-text {
     padding: 20px;
   }
 }
+/* skills Bars setting */
 .skillsbody {
   background-color: #c6ffdd;
   width: 100%;
@@ -351,6 +354,7 @@ ul.tabs li a .tab-text {
   transform: translateX(-50%) rotate(45deg);
   border-radius: 2px;
 }
+/* circular percentages setting */
 .wrapper {
   display: flex;
   justify-content: space-around;
