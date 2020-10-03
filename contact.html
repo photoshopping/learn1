@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <title>Mi proyect prueba</title>
+  </head>
+  <!-- this is a comment -->
+  <body>
+    <div class="nav-container"></div>
+    <header>
+      <nav>
+        <div class="logo">
+          <img class="logo" src="./img/elmermedia logo blanco mini.png" alt="" />
+        </div>
+          <ul class="navigacion">
+            <li><a class="Navitem" href="/">مرحبا</a></li>
+            <li><a class="Navitem" href="/about.html">خدمانتا</a></li>
+            <li><a class="Navitem" href="/contact.html">اتصل بنا</a></li>
+          </ul>
+          <div class="dropdown">
+            <button class="butta"><i class="fas fa-caret-down"></i> المستخدم</button>
+            <ul class="user">
+              <li><a class="Navdrop" href="#">الدخول</a></li>
+              <li><a class="Navdrop" href="#">االتسجيل</a></li>
+              <li><a class="Navdrop" href="#">تغيير كلمة السر</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <section class="textheader">
+        <h1>اتصل بنا</h1>
+       
+      </section>
+
+      <div class="wave" style="height: 100px; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M0.00,49.98 C142.21,203.78 395.59,-95.22 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: rgb(255, 255, 255)"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <div class="bg-contact2" >
+        <div class="container-contact2">
+          <div class="wrap-contact2">
+            <form class="contact2-form validate-form">
+              <span class="contact2-form-title">
+                اتصل بنا
+              </span>
+    
+              <div class="wrap-input2 validate-input" data-validate="Name is required">
+                <input class="input2" type="text" name="name">
+                <span class="focus-input2" data-placeholder="الإسم"></span>
+              </div>
+    
+              <div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input2" type="text" name="email">
+                <span class="focus-input2" data-placeholder="البريد"></span>
+              </div>
+    
+              <div class="wrap-input2 validate-input" data-validate = "Message is required">
+                <textarea class="input2" name="message"></textarea>
+                <span class="focus-input2" data-placeholder="الرسالة"></span>
+              </div>
+    
+              <div class="container-contact2-form-btn">
+                <div class="wrap-contact2-form-btn">
+                  <div class="contact2-form-bgbtn"></div>
+                  <button class="contact2-form-btn">
+                    أرسل
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+    </main>
+    <footer><p>Copyright &copy; ELMERMEDIA <script>new Date().getFullYear()>2017&&document.write(" - "+new Date().getFullYear());</script></p></footer>
+  </body>
+</html>
