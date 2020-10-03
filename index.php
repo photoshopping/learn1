@@ -415,6 +415,7 @@
           </div>
         </div>
       </section>
+      <footer><p>Copyright &copy; ELMERMEDIA <script>new Date().getFullYear()>2017&&document.write(" - "+new Date().getFullYear());</script></p></footer>
 
       <script src="/app.js"></script>
     </main>
